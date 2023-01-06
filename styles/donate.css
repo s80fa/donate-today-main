@@ -1,10 +1,119 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 
+}
+/* header style */
 .header{
     text-align: center;
     background-image: url(  /images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-    height: 400px;
+    background-blend-mode:color-burn;
+    height: 600px;
+}
+.header-title{
+    text-align: center;
+    color: white;
+    padding: 150px 180px; 
 
+}
+.head-line{
+    font-size: 55px;
+    font-weight: 800px;
+    padding: 0 150px;
+}
+.head-des{
+    padding: 0 250px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    font-size: 18px;
+    font-weight: 700;
+    height: 55px;
+    width: 150px;
+    color:azure;
+    background-color: rgb(226, 95, 47);
+    border: none;
+    border-radius: 5px;
+}
+/* Section: Donate style */
+.donate{
+    text-align: center;
+    margin-top: 90px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donate-des{
+    color: #898686;
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding: 0 400px;
+}
+.btn-tk{
+    font-size: 27px;
+    font-weight: 600;
+    height: 120px;
+    width: 120px;
+    color:rgb(141, 139, 139);
+    background-color: rgb(248, 242, 242);
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 45px;
+    margin-right: 16px;
+}
+.btn2-tk{
+    font-size: 27px;
+    font-weight: 600;
+    height: 120px;
+    width: 120px;
+    color:rgb(226, 95, 47);
+    border-radius: 7px;
+    background-color:rgb(249, 206, 204);
+    border-color: rgb(242, 94, 40);
+    border-width: 2px;
+    margin-bottom: 45px;
+    margin-right: 16px;
+}
+input{
+    text-align: center;
+    font-size: 20px;
+    color: darkgray;
+    width: 680px;
+    border: none;
+    border-bottom-style:ridge;
+    margin-bottom: 20px;
+}
+/* section: Donate Plan*/
+.Donate-plan{
+    display: flex;
+    margin: 70px 180px;
+    text-align: left;
+    gap:20px
+    
+
+}
+.Donate-plan .food{
+    background: rgb(206, 224, 234);
+    padding: 60px 30px ;
+    border-radius: 7px;
+    
+}
+.Donate-plan .shelter{
+    background: rgb(246, 220, 245);
+    padding: 60px 30px ;
+    border-radius: 7px;
+}
+.Donate-plan .education{
+    background: rgb(248, 243, 211);
+    padding: 60px 30px ;
+    border-radius: 7px;
+}
+.donate-plan-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
